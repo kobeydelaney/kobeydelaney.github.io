@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+#links a {
+	font-family: 'Oswald', sans-seriff;
+	text-decoration: none;
+	color: #fff;
+	display: inline-block;
+	grid-column: 2/3;
+	margin: 50px 30px;
+	text-transform: uppercase;
+	font-weight: 700;
+	transition: 0.3s;
+
+}
+
+#search-svg i {
+	height: 10px;
+	width: 10px;
+	grid-column: 2/3;
+	display: inline-block;
+	margin: 50px;
+	color: #fff;
+}
+
+#title h1 {
+	font-family: 'Oswald', sans-seriff;
+	font-weight: 700;
+	margin-top: 30px;
+
+}
+
+#navbar {
+	/**background-color: #2eec96; **/
+	display: grid;
+	grid-template-columns: 100px 200px auto 100px;
+	padding-bottom: 30px;
+	height: 300px;
+	width: 100%;
+	background-color: #2eec96;
+	position: absolute;
+}
+
+#links a:hover {
+	color: black;
+}
+
+.content {
+	text-align: center;
+	background-color: #fff;
+	height: 440px;
+	font-family: 'Oswald';
+	width: 70%;
+	border-radius: 2px;
+	margin-right: auto;
+	margin-left: auto;
+	color: black;
+	padding-top: 30px;
+	position: relative;
+	top: -125px;
+}
+.content #date {
+	font-family: 'Oswald', sans-seriff;
+	margin: 60px 10px;
+	font-weight: 200;
+
+	}
+h2 {
+	margin-top: 30px;
+	font-weight: 700;
+	font-size: 50px;
+	max-width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+body {
+	/**background-color: #2eec96; **/
+}
+.main-fff-bg {
+	color: #fff;
+	height: 800px;
+	width: 100%;
+	position: relative;
+	top: 300px;
+}
+.tags {
+	display: inline-flex;
+}
+.tags p{
+	margin-left: 30px;
+	margin-right: 30px;
+	background-color: grey;
+	border-radius: 30px;
+	padding: 10px 15px;
+	background-color: #f4f4f4;
+	color: #848484;
+	font-weight: 700;
+	font-size: 12px;
+}
